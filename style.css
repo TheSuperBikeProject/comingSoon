@@ -8,6 +8,7 @@ body,
     font-family: 'Montserrat', sans-serif;
 }
 
+
 body .main {
     display: flex;
     flex-direction: column;
@@ -66,7 +67,7 @@ body .form {
     height: 40px;
     border-radius: 5px;
     border: none;
-    background-color: rgb(214, 5, 5);
+    background-color: #d60505;
     color: rgb(226, 226, 226);
     font-size: 1rem;
     cursor: pointer;
