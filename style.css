@@ -7,12 +7,12 @@ body,
     padding: 0;
     font-family: 'Montserrat', sans-serif;
     user-select: none;
+    position: absolute;
 }
 
 * {
     user-select: none;
 }
-
 
 body .main {
     display: flex;
@@ -46,7 +46,7 @@ body p {
     padding: 0;
 }
 
-body .form {
+.validate {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -54,7 +54,24 @@ body .form {
     gap: 10px;
 }
 
+#mc_embed_signup_scroll {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1px;
+}
+
 .form input {
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    padding: 0 10px;
+    font-size: 1rem;
+}
+
+#mce-EMAIL {
     width: 300px;
     height: 40px;
     border-radius: 5px;
@@ -68,6 +85,17 @@ body .form {
 }
 
 .form button {
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: #d60505;
+    color: rgb(226, 226, 226);
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+#mc-embedded-subscribe {
     width: 100px;
     height: 40px;
     border-radius: 5px;
@@ -173,6 +201,10 @@ footer .copyright {
 
 footer .copyright p {
     font-size: 12px;
+}
+
+#hideen {
+    display: none;
 }
 
 
